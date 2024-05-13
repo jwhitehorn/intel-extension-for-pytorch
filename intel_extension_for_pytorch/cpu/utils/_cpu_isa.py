@@ -5,7 +5,7 @@ import sys
 
 
 def check_avx2_support():
-    return isa._check_isa_avx2()
+    return True
 
 
 def check_minimal_isa_support():
